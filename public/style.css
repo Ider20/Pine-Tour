@@ -250,9 +250,12 @@ body {
 .price_inner > ul > li {
   font-size: 22px;
   font-weight: 500;
+  transition: 0.3s;
 }
 .price_inner > ul > li:hover {
   font-weight: 700;
+  padding-left: 7px;
+  transition: 0.3s;
 }
 li {
   margin-bottom: 13px;
@@ -285,7 +288,7 @@ li {
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
 }
-.order > a{
+.order > a {
   width: 130px;
   height: 44px;
   font-size: 16px;
@@ -299,7 +302,7 @@ li {
   border-radius: 7px;
   transition: 0.2s;
 }
-.order > a:hover{
+.order > a:hover {
   width: 150px;
   transition: 0.2s;
 }
@@ -472,7 +475,7 @@ nav > .social:hover {
     width: 100%;
   }
   .order {
-    width:100%;
+    width: 100%;
     margin: auto;
   }
   .order > p {
